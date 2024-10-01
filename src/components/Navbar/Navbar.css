@@ -1,0 +1,58 @@
+.navbar {
+  background-color: #d8e1c0;  /* Soft green background */
+  display: flex;
+  justify-content: center;    /* Center the navbar */
+  align-items: center;        /* Align everything in the center */
+  padding: 10px 50px;         /* Adjust the padding for a better height */
+  border-radius: 50px;        /* Rounded edges */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Optional shadow for depth */
+  max-width: 90%;
+  margin: 20px auto;          /* Center the navbar on the page */
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: space-between;  /* Distribute links evenly */
+  align-items: center;             /* Ensure links and icon are centered */
+  list-style: none;
+  gap: 40px;  /* Adjust gap for even spacing between links */
+  margin: 0;
+}
+
+.navbar-links li {
+  font-family: 'Playfair Display', serif; /* Font for the links */
+  font-size: 1.3rem;  /* Make the font slightly bigger */
+  text-transform: uppercase;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: #4a4a4a;  /* Dark text color */
+  transition: color 0.3s ease;
+}
+
+.navbar-links li a:hover {
+  color: #2e2e2e;  /* Darker on hover */
+}
+
+.bean-icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bean-icon {
+  width: 50px;  /* Adjust the size of the bean icon */
+  height: auto;
+  margin: 0 20px;  /* Add margin to give some space between the icon and links */
+}
+
+.navbar-icons a {
+  margin-left: 20px;
+  font-size: 1.5rem;
+  color: #4a4a4a;
+}
+
+.navbar-icons a:hover {
+  color: #2e2e2e;
+}
